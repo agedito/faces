@@ -1,0 +1,12 @@
+insightface==0.7.3
+python-dotenv==1.0.1
+opencv-python==4.9.0.80
+onnxruntime==1.17.0
+scikit-learn==1.4.0
+pandas==2.2.0
+jupyter==1.0.0
+matplotlib==3.8.2
+pillow==10.2.0
+streamlit==1.31.0
+streamlit-webrtc==0.47.1
+redis==5.0.1
