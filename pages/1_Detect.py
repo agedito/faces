@@ -17,11 +17,11 @@ detector = app.get_detector()
 
 detection_widget = st.empty()
 DetectorVideoTransformer.set_app(app)
-cam_widget = webrtc_streamer(key="snapshot", video_processor_factory=DetectorVideoTransformer,webrtc_streamer(
+cam_widget = webrtc_streamer(key="snapshot", video_processor_factory=DetectorVideoTransformer,
     rtc_configuration={
         "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
     }
-))
+)
 
 while cam_widget.video_transformer:
     transformer = cam_widget.video_transformer
